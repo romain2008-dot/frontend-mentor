@@ -1,0 +1,112 @@
+*{
+   font-family:  "Outfit", system-ui;
+    font-size: 17px;
+}
+
+body{
+    background-color: #FFFDD0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+h1{
+    font-family: "Young Serif", system-ui;
+    font-size: 65px;
+    font-weight: 500;
+    margin-left: 33px;
+}
+
+p{
+    color: rgb(52, 48, 48);
+    margin-left: 35px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+caption{
+    width: 100%;
+}
+
+ul{
+    margin-left: 40px;
+    background-color: rgba(124, 124, 124, 0.1);
+    border-radius: 40px;
+    margin-top: 50px;
+}
+
+ol{
+    line-height: 40px;
+}
+
+table{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    border-collapse: collapse;
+}
+
+td,
+th{
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    padding: 10px; 
+    text-align: left;
+}
+
+caption{
+    caption-side: top; 
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 10px; 
+}
+}
+
+th{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    img{
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    h1{
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    p {
+        margin-left: 10px; 
+        margin-right: 10px;
+        text-align: center;
+      }
+
+    th,
+    td{
+        font-size: 18px; 
+        padding: 8px; 
+        word-wrap: break-word;
+        white-space: normal;
+    }
+
+    table{
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
+
+.attribution,
+.attribution a { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
